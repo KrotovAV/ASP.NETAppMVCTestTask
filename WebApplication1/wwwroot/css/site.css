@@ -18,5 +18,13 @@ html {
 }
 
 body {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
 }

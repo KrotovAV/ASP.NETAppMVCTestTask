@@ -26,6 +26,7 @@ namespace WebApplication1.Repositories
 
         public virtual IQueryable<T> Items => _Set;
 
+
         public T Get(int id) => Items.SingleOrDefault(item => item.Id == id);
 
         public async Task<T> GetAsync(int id, CancellationToken Cancel = default) => await Items

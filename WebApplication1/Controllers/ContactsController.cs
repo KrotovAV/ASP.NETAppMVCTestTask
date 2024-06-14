@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using System.Diagnostics.Contracts;
 using WebApplication1.Context;
 using WebApplication1.Entities;
@@ -19,10 +20,42 @@ namespace WebApplication1.Controllers
             _categoryRepo = categoryRepo;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchBy, string searchFor)
         {
-            var contacts = await _contactRepo.Items.ToListAsync();
-            return View(contacts);
+            IQueryable<Contact> contacts = _contactRepo.Items;
+
+            if (string.IsNullOrEmpty(searchBy) && searchFor != null)
+            {
+                contacts = contacts.Where(ser =>
+                    ser.FirstName.ToLower().Contains(searchFor.ToLower())
+                    || ser.LastName.ToLower().Contains(searchFor.ToLower())
+                    || ser.Email.ToLower().Contains(searchFor.ToLower())
+                    || ser.Mobile.ToLower().Contains(searchFor.ToLower())
+                    || ser.Category.CategoryName.ToLower().Contains(searchFor.ToLower())
+                  );
+            }
+
+            if (searchBy == "name" && searchFor != null)
+            {
+                contacts = contacts.Where(ser => ser.FirstName.ToLower().Contains(searchFor.ToLower()) 
+                || ser.LastName.ToLower().Contains(searchFor.ToLower()));
+            }
+            if (searchBy == "email" && searchFor != null)
+            {
+                contacts = contacts.Where(ser => ser.Email.ToLower().Contains(searchFor.ToLower()));
+            }
+            if (searchBy == "phone" && searchFor != null)
+            {
+                contacts = contacts.Where(ser => ser.Mobile.ToLower().Contains(searchFor.ToLower()));
+            }
+            if (searchBy == "category" && searchFor != null)
+            {
+                contacts = contacts.Where(ser => ser.Category.CategoryName.ToLower().Contains(searchFor.ToLower()));
+            }
+
+            var contactsList = await contacts.ToListAsync();
+
+            return View(contactsList);
         }
 
         [HttpGet]
