@@ -1,0 +1,43 @@
+﻿@using WebApplication1.Entities;
+
+@model Category
+
+<div class="row">
+    <div class="col-lg-4 offset-lg-4 col-md-6 offset-md-3 col-12">
+        <div class="card">
+            <div class="card-header">
+                Detail Category ID @Model.Id
+            </div>
+            <div class="card-body">
+                <p class="card-text">Category Name: @Model.CategoryName</p>
+                <label>Contacts List:</label>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <td>First Name</td>
+                            <td>Last Name</td>
+                            <td>Info</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.Contacts)
+                        {
+                            <tr>
+                                <td>@item.FirstName</td>
+                                <td>@item.LastName</td>
+                                <td>
+                                    <a asp-action="Index" asp-controller="ContactDetails" class="btn btn-primary mx-2 my-2" asp-route-id="@item.Id">
+                                        View
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+
+                <a class="btn btn-secondary" asp-controller="Contacts" asp-action="index">Cancel</a>
+            </div>
+
+        </div>
+    </div>
+</div>
