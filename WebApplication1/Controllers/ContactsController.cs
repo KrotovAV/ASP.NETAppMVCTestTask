@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Diagnostics.Contracts;
+using System.Globalization;
 using WebApplication1.Context;
 using WebApplication1.Entities;
 using WebApplication1.Interfaces;
@@ -20,7 +21,7 @@ namespace WebApplication1.Controllers
             _categoryRepo = categoryRepo;
         }
 
-        public async Task<IActionResult> Index(string searchBy, string searchFor)
+        public async Task<IActionResult> Index(string searchBy, string searchFor, string sortBy)
         {
             IQueryable<Contact> contacts = _contactRepo.Items;
 
@@ -53,6 +54,23 @@ namespace WebApplication1.Controllers
                 contacts = contacts.Where(ser => ser.Category.CategoryName.ToLower().Contains(searchFor.ToLower()));
             }
 
+            switch (sortBy)
+            {
+                case "firstName":
+                    contacts = contacts.OrderBy(o => o.FirstName);
+                    break;
+                case "firstNameDesc":
+                    contacts = contacts.OrderByDescending(o => o.FirstName);
+                    break;
+                case "lastName":
+                    contacts = contacts.OrderBy(o => o.LastName);
+                    break;
+                case "lastNameDesc":
+                    contacts = contacts.OrderByDescending(o => o.LastName);
+                    break;
+                default:
+                    break;
+            }
             var contactsList = await contacts.ToListAsync();
 
             return View(contactsList);

@@ -37,8 +37,30 @@
                 <tr>
                     <td>Manage</td>
                     <td>Id</td>
-                    <td>First Name</td>
-                    <td>Last Name</td>
+                    @* <td>First Name</td> *@
+                    @{
+                        var sortBy = Context.Request.Query["sortBy"] == "firstName" ? "firstNameDesc" : "firstName";
+                    }
+                    <th>
+                        <a asp-action="index" asp-route-sortby="@sortBy"
+                           asp-route-page="@Context.Request.Query["page"]"
+                           asp-route-searchby="@Context.Request.Query["searchBy"]"
+                           asp-route-searchfor="@Context.Request.Query["searchFor"]">First Name
+                       </a>
+                    </th>
+                   
+                    @*  <td>Last Name</td> *@
+                    @{
+                        sortBy = Context.Request.Query["sortBy"] == "lastName" ? "lastNameDesc" : "lastName";
+                    }
+                    <th>
+                        <a asp-action="index" asp-route-sortby="@sortBy"
+                           asp-route-page="@Context.Request.Query["page"]"
+                           asp-route-searchby="@Context.Request.Query["searchBy"]"
+                           asp-route-searchfor="@Context.Request.Query["searchFor"]">Last Name
+                       </a>
+                    </th>
+                    
                     <td>Email</td>
                     <td>Phone</td>
                     <td>Category</td>
