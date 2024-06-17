@@ -20,6 +20,8 @@
                         <option value="name">Name</option>
                         <option value="email">Email</option>
                         <option value="phone">Phone</option>
+                        <option value="deleteAble">DeleteAbleType</option>
+                        <option value="priority">PriorityType</option>
                         <option value="category">Category</option>
                     </select>
                     <input name="searchFor" class="form-control" id="inputSearch" aria-describedby="inputSearchComment" aria-label="Search">
@@ -63,6 +65,8 @@
                     
                     <td>Email</td>
                     <td>Phone</td>
+                    <td>UnDeleteAble</td>
+                    <td>Priority</td>
                     <td>Category</td>
                     <td>Info</td>
                 </tr>
@@ -84,6 +88,8 @@
                         <td>@item.LastName</td>
                         <td>@item.Email</td>
                         <td>@item.Mobile</td>
+                        <td>@if (@item.UnDeleteAble == true){<p> yes </p>}</td>
+                        <td>@item.PriorityType</td>
                         <td>@item.Category?.CategoryName</td>
                         <td>
                             <a asp-action="Index" asp-controller="ContactDetails" class="btn btn-primary mx-2 my-2" asp-route-id="@item.Id">

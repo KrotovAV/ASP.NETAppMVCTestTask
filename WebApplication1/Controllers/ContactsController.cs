@@ -2,10 +2,13 @@
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using System;
 using System.Diagnostics.Contracts;
+using System.Drawing;
 using System.Globalization;
 using WebApplication1.Context;
 using WebApplication1.Entities;
+using WebApplication1.Entities.Enums;
 using WebApplication1.Interfaces;
 
 namespace WebApplication1.Controllers
@@ -86,6 +89,9 @@ namespace WebApplication1.Controllers
                          Value = i.Id.ToString(),
                          Text = i.CategoryName
                      }).ToList();
+
+            ViewBag.PriorityTypesRadio = Enum.GetValues(typeof(PriorityType)).Cast<PriorityType>().ToArray();
+
             return View();
         }
 
@@ -121,7 +127,7 @@ namespace WebApplication1.Controllers
                          Value = i.Id.ToString(),
                          Text = i.CategoryName
                      }).ToList();
-
+            ViewBag.PriorityTypesRadio = Enum.GetValues(typeof(PriorityType)).Cast<PriorityType>().ToArray();
             return View(contact);
         }
 
@@ -140,6 +146,8 @@ namespace WebApplication1.Controllers
                         contactToEdit.LastName = contact.LastName;
                         contactToEdit.Mobile = contact.Mobile;
                         contactToEdit.Email = contact.Email;
+                        contactToEdit.PriorityType = contact.PriorityType;
+                        contactToEdit.UnDeleteAble = contact.UnDeleteAble;
                         contactToEdit.CategoryId = contact.CategoryId;
 
                         await _contactRepo.UpdateAsync(contactToEdit);
@@ -174,7 +182,7 @@ namespace WebApplication1.Controllers
 
                     if (contactToDelete != null)
                     {
-                        await _contactRepo.RemoveAsync(contactToDelete.Id);
+                        await _contactRepo.RemoveAsync(contactToDelete.Id);                       
                         return RedirectToAction("Index");
                     }
                 }

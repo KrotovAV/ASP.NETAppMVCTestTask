@@ -21,7 +21,18 @@
                 <label>Mobile:</label>
                 <input asp-for="Mobile" type="text" class="form-control required" placeholder="Enter mobile" tabindex="4">
             </div>
+            <div class="form-group">
+                <label> </label> <br />
+                <label><input type="checkbox" name="DeleteAble" value="true"> UnDeleteAble: </label>
+            </div>
 
+            <div class="form-group">
+                <label>Priority:</label> <br />
+                @foreach (var type in ViewBag.PriorityTypesRadio)
+                {
+                    <input type="radio" asp-for="PriorityType" value="@Convert.ToInt32(type)" /> @type <br />
+                }
+            </div>
             <div class="form-group">
                 <label>Category:</label>
                 <select class="form-select" asp-items="ViewBag.Categories" asp-for="CategoryId">

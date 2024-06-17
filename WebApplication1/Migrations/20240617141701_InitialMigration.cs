@@ -32,8 +32,10 @@ namespace WebApplication1.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     FirstName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    LastName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    LastName = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    UnDeleteAble = table.Column<bool>(type: "bit", nullable: false),
+                    PriorityType = table.Column<int>(type: "int", nullable: true),
                     Mobile = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CategoryId = table.Column<int>(type: "int", nullable: true)
                 },
@@ -59,14 +61,14 @@ namespace WebApplication1.Migrations
 
             migrationBuilder.InsertData(
                 table: "Contacts",
-                columns: new[] { "Id", "CategoryId", "Email", "FirstName", "LastName", "Mobile" },
+                columns: new[] { "Id", "CategoryId", "Email", "FirstName", "LastName", "Mobile", "PriorityType", "UnDeleteAble" },
                 values: new object[,]
                 {
-                    { 1, 1, "e1@e.e", "name1", "last1", "11" },
-                    { 2, 1, "e2@e.e", "name2", "last2", "22" },
-                    { 3, 2, "e3@e.e", "name3", "last3", "33" },
-                    { 4, 2, "e4@e.e", "name4", "last4", "4444" },
-                    { 5, 3, "e5@e.e", "name5", "last5", "55" }
+                    { 1, 1, "e1@e.e", "name1", "last1", "11", 0, false },
+                    { 2, 1, "e2@e.e", "name2", "last2", "22", 1, true },
+                    { 3, 2, "e3@e.e", "name3", "last3", "33", 2, true },
+                    { 4, 2, "e4@e.e", "name4", "last4", "4444", null, false },
+                    { 5, 3, "e5@e.e", "name5", "last5", "55", null, false }
                 });
 
             migrationBuilder.CreateIndex(

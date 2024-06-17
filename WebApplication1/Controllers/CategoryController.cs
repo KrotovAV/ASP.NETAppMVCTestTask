@@ -92,22 +92,28 @@ namespace WebApplication1.Controllers
         [HttpPost]
         public async Task<IActionResult> Delete(Category category)
         {
-            try
-            {
-                var categoryToDelete = await _categoryRepo.GetAsync(category.Id);
-
-                if (categoryToDelete != null)
+            //if (ModelState.IsValid)
+            //{
+                try
                 {
-                    await _categoryRepo.RemoveAsync(categoryToDelete.Id);
-                    return RedirectToAction("Index");
-                }
-            }
-            catch (Exception ex)
-            {
-                ModelState.AddModelError(string.Empty, $"Что-то пошло не так {ex.Message}");
-            }
+                    var categoryToDelete = await _categoryRepo.GetAsync(category.Id);
 
-            return View();
+                    if (categoryToDelete != null)
+                    {
+                        await _categoryRepo.RemoveAsync(categoryToDelete.Id);
+
+                        return RedirectToAction("Index");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    ModelState.AddModelError(string.Empty, $"Что-то пошло не так {ex.Message}");
+                }
+            //}
+
+            //ModelState.AddModelError(string.Empty, $"Что-то пошло не так, недопустимая модель");
+
+            return View(category);
         }
     }
 }

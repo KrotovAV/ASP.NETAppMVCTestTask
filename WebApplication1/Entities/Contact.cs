@@ -1,4 +1,5 @@
 ﻿using WebApplication1.Entities.Base;
+using WebApplication1.Entities.Enums;
 
 namespace WebApplication1.Entities
 {
@@ -6,8 +7,10 @@ namespace WebApplication1.Entities
     {
         //public int Id { get; set; }
         public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public string Email { get; set; }
+        public string? LastName { get; set; }
+        public string? Email { get; set; }
+        public bool UnDeleteAble { get; set; } = false;
+        public PriorityType? PriorityType { get; set; }
         public string Mobile { get; set; }
         public int? CategoryId { get; set; } // внешний ключ
         public virtual Category? Category { get; set; }//навигационное свойство

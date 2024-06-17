@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using WebApplication1.Entities;
+using WebApplication1.Entities.Enums;
 
 namespace WebApplication1.Context
 {
@@ -25,7 +26,7 @@ namespace WebApplication1.Context
                         .Build();
 
             optionsBuilder
-                //.UseLazyLoadingProxies()
+                .UseLazyLoadingProxies()
                     .UseSqlServer(config.GetConnectionString("Connection"));
         }
 
@@ -44,9 +45,9 @@ namespace WebApplication1.Context
 
             modelBuilder.Entity<Contact>().HasData(
                 new Contact[]{
-                    new Contact { Id=1, FirstName= "name1", LastName="last1", Email="e1@e.e", Mobile="11", CategoryId=1},
-                    new Contact { Id=2, FirstName= "name2", LastName="last2", Email="e2@e.e", Mobile="22", CategoryId=1},
-                    new Contact { Id=3, FirstName= "name3", LastName="last3", Email="e3@e.e", Mobile="33", CategoryId=2},
+                    new Contact { Id=1, FirstName= "name1", LastName="last1", Email="e1@e.e", Mobile="11", CategoryId=1, PriorityType =PriorityType.high, UnDeleteAble=false},
+                    new Contact { Id=2, FirstName= "name2", LastName="last2", Email="e2@e.e", Mobile="22", CategoryId=1, PriorityType =PriorityType.medium, UnDeleteAble=true},
+                    new Contact { Id=3, FirstName= "name3", LastName="last3", Email="e3@e.e", Mobile="33", CategoryId=2, PriorityType =PriorityType.low, UnDeleteAble=true},
                     new Contact { Id=4, FirstName= "name4", LastName="last4", Email="e4@e.e", Mobile="4444", CategoryId=2},
                     new Contact { Id=5, FirstName= "name5", LastName="last5", Email="e5@e.e", Mobile="55", CategoryId=3}
                 }

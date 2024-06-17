@@ -310,3 +310,4 @@ D:\Работа\GitProject\ASP.NETAppMVCTestTask\WebApplication1\obj\Debug\net7.
 D:\Работа\GitProject\ASP.NETAppMVCTestTask\WebApplication1\obj\Debug\net7.0\WebApplication1.pdb
 D:\Работа\GitProject\ASP.NETAppMVCTestTask\WebApplication1\obj\Debug\net7.0\WebApplication1.genruntimeconfig.cache
 D:\Работа\GitProject\ASP.NETAppMVCTestTask\WebApplication1\obj\Debug\net7.0\ref\WebApplication1.dll
+D:\Работа\GitProject\ASP.NETAppMVCTestTask\WebApplication1\bin\Debug\net7.0\libman.json

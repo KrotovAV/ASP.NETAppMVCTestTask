@@ -12,7 +12,7 @@ using WebApplication1.Context;
 namespace WebApplication1.Migrations
 {
     [DbContext(typeof(AppDBContext))]
-    [Migration("20240613133805_InitialMigration")]
+    [Migration("20240617141701_InitialMigration")]
     partial class InitialMigration
     {
         /// <inheritdoc />
@@ -28,7 +28,7 @@ namespace WebApplication1.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("WebApplication1.Entity.Category", b =>
+            modelBuilder.Entity("WebApplication1.Entities.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -62,7 +62,7 @@ namespace WebApplication1.Migrations
                         });
                 });
 
-            modelBuilder.Entity("WebApplication1.Entity.Contact", b =>
+            modelBuilder.Entity("WebApplication1.Entities.Contact", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -74,7 +74,6 @@ namespace WebApplication1.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Email")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("FirstName")
@@ -82,12 +81,17 @@ namespace WebApplication1.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("LastName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Mobile")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("PriorityType")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("UnDeleteAble")
+                        .HasColumnType("bit");
 
                     b.HasKey("Id");
 
@@ -103,7 +107,9 @@ namespace WebApplication1.Migrations
                             Email = "e1@e.e",
                             FirstName = "name1",
                             LastName = "last1",
-                            Mobile = "11"
+                            Mobile = "11",
+                            PriorityType = 0,
+                            UnDeleteAble = false
                         },
                         new
                         {
@@ -112,7 +118,9 @@ namespace WebApplication1.Migrations
                             Email = "e2@e.e",
                             FirstName = "name2",
                             LastName = "last2",
-                            Mobile = "22"
+                            Mobile = "22",
+                            PriorityType = 1,
+                            UnDeleteAble = true
                         },
                         new
                         {
@@ -121,7 +129,9 @@ namespace WebApplication1.Migrations
                             Email = "e3@e.e",
                             FirstName = "name3",
                             LastName = "last3",
-                            Mobile = "33"
+                            Mobile = "33",
+                            PriorityType = 2,
+                            UnDeleteAble = true
                         },
                         new
                         {
@@ -130,7 +140,8 @@ namespace WebApplication1.Migrations
                             Email = "e4@e.e",
                             FirstName = "name4",
                             LastName = "last4",
-                            Mobile = "4444"
+                            Mobile = "4444",
+                            UnDeleteAble = false
                         },
                         new
                         {
@@ -139,20 +150,21 @@ namespace WebApplication1.Migrations
                             Email = "e5@e.e",
                             FirstName = "name5",
                             LastName = "last5",
-                            Mobile = "55"
+                            Mobile = "55",
+                            UnDeleteAble = false
                         });
                 });
 
-            modelBuilder.Entity("WebApplication1.Entity.Contact", b =>
+            modelBuilder.Entity("WebApplication1.Entities.Contact", b =>
                 {
-                    b.HasOne("WebApplication1.Entity.Category", "Category")
+                    b.HasOne("WebApplication1.Entities.Category", "Category")
                         .WithMany("Contacts")
                         .HasForeignKey("CategoryId");
 
                     b.Navigation("Category");
                 });
 
-            modelBuilder.Entity("WebApplication1.Entity.Category", b =>
+            modelBuilder.Entity("WebApplication1.Entities.Category", b =>
                 {
                     b.Navigation("Contacts");
                 });
