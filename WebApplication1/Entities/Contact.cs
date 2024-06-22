@@ -10,9 +10,11 @@ namespace WebApplication1.Entities
         public string? LastName { get; set; }
         public string? Email { get; set; }
         public bool UnDeleteAble { get; set; } = false;
-        public PriorityType? PriorityType { get; set; }
+        public PriorityType PriorityType { get; set; } = PriorityType.notSelected;
         public string Mobile { get; set; }
         public int? CategoryId { get; set; } // внешний ключ
         public virtual Category? Category { get; set; }//навигационное свойство
+        public string? PhotoPath { get; set; }
+        public DateTime? BirthDate { get; set; }
     }
 }

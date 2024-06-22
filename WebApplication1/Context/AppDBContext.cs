@@ -45,11 +45,11 @@ namespace WebApplication1.Context
 
             modelBuilder.Entity<Contact>().HasData(
                 new Contact[]{
-                    new Contact { Id=1, FirstName= "name1", LastName="last1", Email="e1@e.e", Mobile="11", CategoryId=1, PriorityType =PriorityType.high, UnDeleteAble=false},
-                    new Contact { Id=2, FirstName= "name2", LastName="last2", Email="e2@e.e", Mobile="22", CategoryId=1, PriorityType =PriorityType.medium, UnDeleteAble=true},
-                    new Contact { Id=3, FirstName= "name3", LastName="last3", Email="e3@e.e", Mobile="33", CategoryId=2, PriorityType =PriorityType.low, UnDeleteAble=true},
-                    new Contact { Id=4, FirstName= "name4", LastName="last4", Email="e4@e.e", Mobile="4444", CategoryId=2},
-                    new Contact { Id=5, FirstName= "name5", LastName="last5", Email="e5@e.e", Mobile="55", CategoryId=3}
+                    new Contact { Id=1, FirstName= "name1", LastName="last1", Email="e1@e.e", Mobile="11", BirthDate = DateTime.Parse("2011-01-21"), PhotoPath="/img/01.jpg", CategoryId=1, PriorityType =PriorityType.high},
+                    new Contact { Id=2, FirstName= "name2", LastName="last2", Email="e2@e.e", Mobile="22",BirthDate = DateTime.Parse("2010-02-22"), PhotoPath="/img/02.jpg", CategoryId=1, PriorityType =PriorityType.medium, UnDeleteAble=true},
+                    new Contact { Id=3, FirstName= "name3", LastName="last3", Email="e3@e.e", Mobile="33", BirthDate = DateTime.Parse("2012-03-23"), PhotoPath="/img/03.jpg", CategoryId=2, PriorityType =PriorityType.low},
+                    new Contact { Id=4, FirstName= "name4", LastName="last4", Email="e4@e.e", Mobile="4444",BirthDate = DateTime.Parse("2013-04-24"), PhotoPath="/img/04.jpg", CategoryId=2},
+                    new Contact { Id=5, FirstName= "name5", LastName="last5", Email="e5@e.e", Mobile="55", PhotoPath="/img/05.jpg", CategoryId=3}
                 }
             );
         }

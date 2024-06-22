@@ -13,6 +13,30 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\img\\01.jpg",
+      "PackagePath": "staticwebassets\\img\\01.jpg"
+    },
+    {
+      "Id": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\img\\02.jpg",
+      "PackagePath": "staticwebassets\\img\\02.jpg"
+    },
+    {
+      "Id": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\img\\03.jpg",
+      "PackagePath": "staticwebassets\\img\\03.jpg"
+    },
+    {
+      "Id": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\img\\04.jpg",
+      "PackagePath": "staticwebassets\\img\\04.jpg"
+    },
+    {
+      "Id": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\img\\05.jpg",
+      "PackagePath": "staticwebassets\\img\\05.jpg"
+    },
+    {
+      "Id": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\img\\06.jpg",
+      "PackagePath": "staticwebassets\\img\\06.jpg"
+    },
+    {
       "Id": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

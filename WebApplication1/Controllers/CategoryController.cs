@@ -21,6 +21,17 @@ namespace WebApplication1.Controllers
             return View(categories);
         }
 
+
+        [HttpGet]
+        public async Task<IActionResult> Details(int id)
+        {
+            var category = await _categoryRepo.GetAsync(id);
+
+            return View(category);
+        }
+
+
+
         [HttpGet]
         public IActionResult Create()
         {

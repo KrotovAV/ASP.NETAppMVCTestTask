@@ -10,15 +10,13 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebApplication1
 build_property.RootNamespace = WebApplication1
 build_property.ProjectDir = D:\Работа\GitProject\ASP.NETAppMVCTestTask\WebApplication1\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = D:\Работа\GitProject\ASP.NETAppMVCTestTask\WebApplication1
 build_property._RazorSourceGeneratorDebug = 
-
-[D:/Работа/GitProject/ASP.NETAppMVCTestTask/WebApplication1/Views/CategoryDetails/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlEZXRhaWxzXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Работа/GitProject/ASP.NETAppMVCTestTask/WebApplication1/Views/Category/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
@@ -26,6 +24,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Работа/GitProject/ASP.NETAppMVCTestTask/WebApplication1/Views/Category/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Работа/GitProject/ASP.NETAppMVCTestTask/WebApplication1/Views/Category/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Работа/GitProject/ASP.NETAppMVCTestTask/WebApplication1/Views/Category/Edit.cshtml]
@@ -36,16 +38,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Работа/GitProject/ASP.NETAppMVCTestTask/WebApplication1/Views/ContactDetails/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdERldGFpbHNcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/Работа/GitProject/ASP.NETAppMVCTestTask/WebApplication1/Views/Contacts/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Работа/GitProject/ASP.NETAppMVCTestTask/WebApplication1/Views/Contacts/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Работа/GitProject/ASP.NETAppMVCTestTask/WebApplication1/Views/Contacts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Работа/GitProject/ASP.NETAppMVCTestTask/WebApplication1/Views/Contacts/Edit.cshtml]

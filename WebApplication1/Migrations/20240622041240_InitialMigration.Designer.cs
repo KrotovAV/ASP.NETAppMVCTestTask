@@ -12,7 +12,7 @@ using WebApplication1.Context;
 namespace WebApplication1.Migrations
 {
     [DbContext(typeof(AppDBContext))]
-    [Migration("20240617141701_InitialMigration")]
+    [Migration("20240622041240_InitialMigration")]
     partial class InitialMigration
     {
         /// <inheritdoc />
@@ -70,6 +70,9 @@ namespace WebApplication1.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<DateTime?>("BirthDate")
+                        .HasColumnType("datetime2");
+
                     b.Property<int?>("CategoryId")
                         .HasColumnType("int");
 
@@ -87,7 +90,10 @@ namespace WebApplication1.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("PriorityType")
+                    b.Property<string>("PhotoPath")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("PriorityType")
                         .HasColumnType("int");
 
                     b.Property<bool>("UnDeleteAble")
@@ -103,44 +109,53 @@ namespace WebApplication1.Migrations
                         new
                         {
                             Id = 1,
+                            BirthDate = new DateTime(2011, 1, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             CategoryId = 1,
                             Email = "e1@e.e",
                             FirstName = "name1",
                             LastName = "last1",
                             Mobile = "11",
+                            PhotoPath = "/img/01.jpg",
                             PriorityType = 0,
                             UnDeleteAble = false
                         },
                         new
                         {
                             Id = 2,
+                            BirthDate = new DateTime(2010, 2, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             CategoryId = 1,
                             Email = "e2@e.e",
                             FirstName = "name2",
                             LastName = "last2",
                             Mobile = "22",
+                            PhotoPath = "/img/02.jpg",
                             PriorityType = 1,
                             UnDeleteAble = true
                         },
                         new
                         {
                             Id = 3,
+                            BirthDate = new DateTime(2012, 3, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             CategoryId = 2,
                             Email = "e3@e.e",
                             FirstName = "name3",
                             LastName = "last3",
                             Mobile = "33",
+                            PhotoPath = "/img/03.jpg",
                             PriorityType = 2,
-                            UnDeleteAble = true
+                            UnDeleteAble = false
                         },
                         new
                         {
                             Id = 4,
+                            BirthDate = new DateTime(2013, 4, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             CategoryId = 2,
                             Email = "e4@e.e",
                             FirstName = "name4",
                             LastName = "last4",
                             Mobile = "4444",
+                            PhotoPath = "/img/04.jpg",
+                            PriorityType = 3,
                             UnDeleteAble = false
                         },
                         new
@@ -151,6 +166,8 @@ namespace WebApplication1.Migrations
                             FirstName = "name5",
                             LastName = "last5",
                             Mobile = "55",
+                            PhotoPath = "/img/05.jpg",
+                            PriorityType = 3,
                             UnDeleteAble = false
                         });
                 });

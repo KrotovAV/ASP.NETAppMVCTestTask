@@ -1,7 +1,11 @@
+using Microsoft.Extensions.FileProviders;
 using WebApplication1.Context;
 using WebApplication1.Entities;
 using WebApplication1.Interfaces;
 using WebApplication1.Repositories;
+using Microsoft.Extensions.FileProviders;
+using System.IO;
+using Microsoft.Extensions.Hosting.Internal;
 
 namespace WebApplication1
 {
@@ -17,6 +21,12 @@ namespace WebApplication1
             builder.Services.AddTransient<IRepository<Contact>, ContactRepository>();
             builder.Services.AddTransient<IRepository<Category>, CategoryRepository>();
             builder.Configuration.GetConnectionString("Connection");
+
+            builder.Services.AddSingleton<IFileProvider>(new PhysicalFileProvider(
+                Path.Combine(Directory.GetCurrentDirectory(), "wwwroot")));
+
+
+            builder.Services.AddMvc();
 
             var app = builder.Build();
 

@@ -23,6 +23,12 @@
                 <input asp-for="Mobile" disabled type="text" class="form-control required" placeholder="Enter mobile" tabindex="4">
             </div>
             <div class="form-group">
+                <label>Photo:</label>
+            </div>
+            <div class="form-group">
+                <img src="@Model.PhotoPath" width="50" alt="Image" class="img-fluid" /></ br>
+            </div>
+            <div class="form-group">
                 <label>Category:</label>
                 <input asp-for="CategoryId" disabled type="text" class="form-control required" placeholder="Enter category Id" tabindex="5">
             </div>

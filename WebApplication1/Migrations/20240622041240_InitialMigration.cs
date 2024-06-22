@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
@@ -35,9 +36,11 @@ namespace WebApplication1.Migrations
                     LastName = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     UnDeleteAble = table.Column<bool>(type: "bit", nullable: false),
-                    PriorityType = table.Column<int>(type: "int", nullable: true),
+                    PriorityType = table.Column<int>(type: "int", nullable: false),
                     Mobile = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    CategoryId = table.Column<int>(type: "int", nullable: true)
+                    CategoryId = table.Column<int>(type: "int", nullable: true),
+                    PhotoPath = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    BirthDate = table.Column<DateTime>(type: "datetime2", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -61,14 +64,14 @@ namespace WebApplication1.Migrations
 
             migrationBuilder.InsertData(
                 table: "Contacts",
-                columns: new[] { "Id", "CategoryId", "Email", "FirstName", "LastName", "Mobile", "PriorityType", "UnDeleteAble" },
+                columns: new[] { "Id", "BirthDate", "CategoryId", "Email", "FirstName", "LastName", "Mobile", "PhotoPath", "PriorityType", "UnDeleteAble" },
                 values: new object[,]
                 {
-                    { 1, 1, "e1@e.e", "name1", "last1", "11", 0, false },
-                    { 2, 1, "e2@e.e", "name2", "last2", "22", 1, true },
-                    { 3, 2, "e3@e.e", "name3", "last3", "33", 2, true },
-                    { 4, 2, "e4@e.e", "name4", "last4", "4444", null, false },
-                    { 5, 3, "e5@e.e", "name5", "last5", "55", null, false }
+                    { 1, new DateTime(2011, 1, 21, 0, 0, 0, 0, DateTimeKind.Unspecified), 1, "e1@e.e", "name1", "last1", "11", "/img/01.jpg", 0, false },
+                    { 2, new DateTime(2010, 2, 22, 0, 0, 0, 0, DateTimeKind.Unspecified), 1, "e2@e.e", "name2", "last2", "22", "/img/02.jpg", 1, true },
+                    { 3, new DateTime(2012, 3, 23, 0, 0, 0, 0, DateTimeKind.Unspecified), 2, "e3@e.e", "name3", "last3", "33", "/img/03.jpg", 2, false },
+                    { 4, new DateTime(2013, 4, 24, 0, 0, 0, 0, DateTimeKind.Unspecified), 2, "e4@e.e", "name4", "last4", "4444", "/img/04.jpg", 3, false },
+                    { 5, null, 3, "e5@e.e", "name5", "last5", "55", "/img/05.jpg", 3, false }
                 });
 
             migrationBuilder.CreateIndex(

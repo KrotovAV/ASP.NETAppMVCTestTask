@@ -3,12 +3,12 @@
 @model List<Contact>
 
 
-<div class="row">
+<div class="row" enctype="multipart/form-data">
 
 
     <div class="row">
         <div class="col-md-2 show-border">
-            <a asp-action="Create" asp-asp-controller="Contacts" class="btn btn-success">
+            <a asp-action="Create" asp-controller="Contacts" class="btn btn-success">
                 Create
             </a>
         </div>
@@ -20,8 +20,7 @@
                         <option value="name">Name</option>
                         <option value="email">Email</option>
                         <option value="phone">Phone</option>
-                        <option value="deleteAble">DeleteAbleType</option>
-                        <option value="priority">PriorityType</option>
+                        <option value="birthDate">Birth Date</option>
                         <option value="category">Category</option>
                     </select>
                     <input name="searchFor" class="form-control" id="inputSearch" aria-describedby="inputSearchComment" aria-label="Search">
@@ -38,7 +37,7 @@
             <thead>
                 <tr>
                     <td>Manage</td>
-                    <td>Id</td>
+                    @* <td>Id</td> *@
                     @* <td>First Name</td> *@
                     @{
                         var sortBy = Context.Request.Query["sortBy"] == "firstName" ? "firstNameDesc" : "firstName";
@@ -62,10 +61,11 @@
                            asp-route-searchfor="@Context.Request.Query["searchFor"]">Last Name
                        </a>
                     </th>
-                    
+                    <th>Photo</th>
+                    <th>Birth Date</th>
                     <td>Email</td>
                     <td>Phone</td>
-                    <td>UnDeleteAble</td>
+                    <td>UnDel</td>
                     <td>Priority</td>
                     <td>Category</td>
                     <td>Info</td>
@@ -79,20 +79,25 @@
                             <a asp-action="Edit" asp-controller="Contacts" class="btn btn-warning" asp-route-id="@item.Id">
                                 Edit
                             </a>
-                            <a asp-action="Delete" asp-controller="Contacts" class="btn btn-danger" asp-route-id="@item.Id">
+                            <a asp-action="Delete" asp-controller="Contacts" class="btn btn-danger" asp-route-id="@item.Id" method="post">
                                 Delete
                             </a>
                         </td>
-                        <td>@item.Id</td>
+                        @* <td>@item.Id</td> *@
                         <td>@item.FirstName</td>
                         <td>@item.LastName</td>
+                        <td>
+                            <img src="@item.PhotoPath" class="img-thumbnail" height="40" width="40" asp-append-version="true" />
+
+                        </td>
+                        <td>@item.BirthDate</td>
                         <td>@item.Email</td>
                         <td>@item.Mobile</td>
                         <td>@if (@item.UnDeleteAble == true){<p> yes </p>}</td>
                         <td>@item.PriorityType</td>
                         <td>@item.Category?.CategoryName</td>
                         <td>
-                            <a asp-action="Index" asp-controller="ContactDetails" class="btn btn-primary mx-2 my-2" asp-route-id="@item.Id">
+                            <a asp-action="Details" asp-controller="Contacts" class="btn btn-primary" asp-route-id="@item.Id">
                                 View
                             </a>
                         </td>
