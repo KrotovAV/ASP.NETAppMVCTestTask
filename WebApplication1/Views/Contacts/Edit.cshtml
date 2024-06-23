@@ -28,7 +28,10 @@
                 <label>Photo:</label>
             </div>
             <div class="form-group">
-                <img src="@Model.PhotoPath" class="img-thumbnail" height="100" width="100" asp-append-version="true" />
+                @{
+                    string imagePath = "~/img/" + @Model.PhotoPath;
+                }
+                <img src="@imagePath" class="img-thumbnail" height="100" width="100" asp-append-version="true" />
             </div>
             <br />
             <div class="form-group">

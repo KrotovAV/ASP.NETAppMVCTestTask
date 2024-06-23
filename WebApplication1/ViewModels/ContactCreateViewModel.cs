@@ -23,7 +23,7 @@ namespace WebApplication1.ViewModels
 
         public bool UnDeleteAble { get; set; } = false;
         public PriorityType PriorityType { get; set; } = PriorityType.notSelected;
-
+        [Range(1000000000, 10000000000)]
         [Required]
         public string Mobile { get; set; }
         
@@ -37,6 +37,6 @@ namespace WebApplication1.ViewModels
         [DataType(DataType.Date)]
         [Display(Name = "Date")]
         public DateTime? BirthDate { get; set; }
-        public IFormFile UploadFile { get; set; }
+        public IFormFile? UploadFile { get; set; }
     }
 }

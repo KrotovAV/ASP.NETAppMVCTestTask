@@ -128,7 +128,6 @@ namespace WebApplication1.Controllers
             {
                 Contact contact = new Contact
                 {
-                    //Id = contactCreateViewModel.Id,
                     FirstName = contactCreateViewModel.FirstName,
                     LastName = contactCreateViewModel.LastName,
                     Email = contactCreateViewModel.Email,
@@ -136,18 +135,16 @@ namespace WebApplication1.Controllers
                     PriorityType = contactCreateViewModel.PriorityType,
                     Mobile = contactCreateViewModel.Mobile,
                     CategoryId = contactCreateViewModel.CategoryId,
-                    //PhotoPath = contactCreateViewModel.PhotoPath,
                     BirthDate = contactCreateViewModel.BirthDate
                 };
                 if (contactCreateViewModel.UploadFile != null)
                 {
-                    contact.PhotoPath = "/img/" + UploadFile(contactCreateViewModel.UploadFile);
+                    contact.PhotoPath = UploadFile(contactCreateViewModel.UploadFile, contact.FirstName, contact.LastName);
                 }
                 await _contactRepo.AddAsync(contact);
                 return RedirectToAction("Index");
 
             }
-            //ModelState.AddModelError(string.Empty, $"Что-то пошло не так, недопустимая модель");
             await LoadDropdownList();
             return View(contactCreateViewModel);
         }
@@ -197,56 +194,50 @@ namespace WebApplication1.Controllers
                     {
                         if (contactToEdit.PhotoPath != null)
                         {
-                            string ExitingFile = Path.Combine(_environment.WebRootPath, contactToEdit.PhotoPath);
-                            System.IO.File.Delete(ExitingFile);
+                            string exitingFile = Path.Combine(_environment.WebRootPath,"img",contactToEdit.PhotoPath);
+                            System.IO.File.Delete(exitingFile);
                         }
-                        contactToEdit.PhotoPath = UploadFile(contactEditViewModel.UploadFile);
+                        contactToEdit.PhotoPath = UploadFile(contactEditViewModel.UploadFile, contactToEdit.FirstName,contactToEdit.LastName);
                     }
 
                     await _contactRepo.UpdateAsync(contactToEdit);
                     return RedirectToAction("Index");
                 }
             }
-            //ModelState.AddModelError(string.Empty, $"Что-то пошло не так, недопустимая модель");
             await LoadDropdownList();
             return View(contactEditViewModel);
         }
 
-        //[HttpGet]
-        //public async Task<IActionResult> Delete(int id)
-        //{
-        //    var contact = await _contactRepo.GetAsync(id);
-        //    return View(contact);
-        //}
+        [HttpGet]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var contact = await _contactRepo.GetAsync(id);
+            return View(contact);
+        }
 
         [HttpPost]
-        public async Task<IActionResult> Delete(int id)
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var contactToDelete = await _contactRepo.GetAsync(id);
 
-            if (contactToDelete != null)
+            if (contactToDelete.PhotoPath != null)
             {
-                if(contactToDelete.PhotoPath != null)
-                {
-                    string ExitingFile = Path.Combine(_environment.WebRootPath, contactToDelete.PhotoPath);
-                    System.IO.File.Delete(ExitingFile);
-                }
-                await _contactRepo.RemoveAsync(contactToDelete.Id);
-                return RedirectToAction("Index");
+                string exitingFile = Path.Combine(_environment.WebRootPath, "img", contactToDelete.PhotoPath);
+                System.IO.File.Delete(exitingFile);
             }
-   
-            return View();
+            await _contactRepo.RemoveAsync(contactToDelete.Id);
+            return RedirectToAction("Index");
         }
 
-        private string UploadFile(IFormFile formFile)
+        private string UploadFile(IFormFile formFile, string firstName, string lastName)
         {
-            string UniqueFileName = Guid.NewGuid().ToString() + "-" + formFile.FileName;
-            string TargetPath = Path.Combine(_environment.WebRootPath, "img", UniqueFileName);
+            string uniqueFileName = $"{firstName}_{lastName}_{Guid.NewGuid().ToString()}.jpg";
+            string TargetPath = Path.Combine(_environment.WebRootPath, "img", uniqueFileName);
             using (var stream = new FileStream(TargetPath, FileMode.Create))
             {
                 formFile.CopyTo(stream);
             }
-            return UniqueFileName;
+            return uniqueFileName;
         }
 
         private async Task LoadDropdownList()

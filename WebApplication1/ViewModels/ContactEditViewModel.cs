@@ -23,6 +23,7 @@ namespace WebApplication1.ViewModels
         public bool UnDeleteAble { get; set; }
         public PriorityType PriorityType { get; set; }
 
+        [Range(1000000000, 10000000000)]
         [Required]
         public string Mobile { get; set; }
 

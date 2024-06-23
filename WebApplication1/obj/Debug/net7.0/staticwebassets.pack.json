@@ -33,10 +33,6 @@
       "PackagePath": "staticwebassets\\img\\05.jpg"
     },
     {
-      "Id": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\img\\06.jpg",
-      "PackagePath": "staticwebassets\\img\\06.jpg"
-    },
-    {
       "Id": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

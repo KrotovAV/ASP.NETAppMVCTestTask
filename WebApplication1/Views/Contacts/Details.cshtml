@@ -18,14 +18,17 @@
                 else {<p class="card-text">DeleteAble: no</p>}
                 <p class="card-text">Priority: @Model.PriorityType</p>
                 <p class="card-text">Category: @Model.Category?.CategoryName</p>
-                <img src="@Model.PhotoPath" class="img-thumbnail" height="100" width="100" asp-append-version="true" />
+                @{
+                    string imagePath = "~/img/" + @Model.PhotoPath;
+                }
+                <img src="@imagePath" class="img-thumbnail" height="100" width="100" asp-append-version="true" />
                 <p class="card-text">Photo:</p>
                 <div class="form-group">
 
                     <a asp-action="Edit" asp-controller="Contacts" class="btn btn-warning" asp-route-id="@Model.Id">
                         Edit
                     </a>
-                    <a asp-action="Delete" asp-controller="Contacts" class="btn btn-danger" asp-route-id="@Model.Id" method="post">
+                    <a asp-action="Delete" asp-controller="Contacts" class="btn btn-danger" asp-route-id="@Model.Id">
                         Delete
                     </a>
                     <a asp-action="Index" asp-controller="Contacts" class="btn btn-primary">

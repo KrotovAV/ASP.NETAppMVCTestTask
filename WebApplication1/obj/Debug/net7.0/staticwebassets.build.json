@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gEWlawo8cWNmRVyaqZlKoCEmsGr4Q7FidFCsQUc6MpY=",
+  "Hash": "dPp8lLvD9/o8kf7cXEG13NW3QP2cnSlM8dQLL6D3j94=",
   "Source": "WebApplication1",
   "BasePath": "_content/WebApplication1",
   "Mode": "Default",
@@ -186,25 +186,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\05.jpg"
-    },
-    {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\img\\06.jpg",
-      "SourceId": "WebApplication1",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
-      "RelativePath": "img/06.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\06.jpg"
     },
     {
       "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\js\\site.js",

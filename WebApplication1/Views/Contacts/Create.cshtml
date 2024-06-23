@@ -27,6 +27,7 @@
                 <label>Photo:</label><br />
                 <label asp-for="@Model.UploadFile" class="form-label"></label>
                 <input asp-for="@Model.UploadFile" class="form-control" />
+              @*   <input asp-for="@Model.UploadFile" class="form-control" asp-action="Upload" asp-route-UniqueFileName="@Model.FirstName + @Model.LastName" /> *@
             </div>
             <div class="form-group">
                 <label>Mobile:</label>

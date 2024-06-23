@@ -83,7 +83,9 @@ namespace WebApplication1.Repositories
 
         public async Task RemoveAsync(int id, CancellationToken Cancel = default)
         {
-            _db.Remove(new T { Id = id });
+            var item = _Set.Local.FirstOrDefault(i => i.Id == id) ?? new T { Id = id };
+            _db.Remove(item);
+            //_db.Remove(new T { Id = id });
             if (AutoSaveChanges)
                 await _db.SaveChangesAsync(Cancel).ConfigureAwait(false);
         }
