@@ -13,7 +13,8 @@
           "Microsoft.EntityFrameworkCore.InMemory": "7.0.11",
           "Microsoft.EntityFrameworkCore.Proxies": "7.0.11",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.11",
-          "Microsoft.EntityFrameworkCore.Tools": "7.0.11"
+          "Microsoft.EntityFrameworkCore.Tools": "7.0.11",
+          "X.PagedList.Mvc.Core": "8.1.0"
         },
         "runtime": {
           "WebApplication1.dll": {}
@@ -69,6 +70,14 @@
           "lib/net6.0/Humanizer.dll": {
             "assemblyVersion": "2.14.0.0",
             "fileVersion": "2.14.1.48190"
+          }
+        }
+      },
+      "JetBrains.Annotations/2021.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {
+            "assemblyVersion": "2021.1.0.0",
+            "fileVersion": "2021.1.0.0"
           }
         }
       },
@@ -627,6 +636,28 @@
             "fileVersion": "6.0.21.52210"
           }
         }
+      },
+      "X.PagedList/8.1.0": {
+        "dependencies": {
+          "JetBrains.Annotations": "2021.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/X.PagedList.dll": {
+            "assemblyVersion": "8.1.0.0",
+            "fileVersion": "8.1.0.0"
+          }
+        }
+      },
+      "X.PagedList.Mvc.Core/8.1.0": {
+        "dependencies": {
+          "X.PagedList": "8.1.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/X.PagedList.Mvc.Core.dll": {
+            "assemblyVersion": "8.1.0.0",
+            "fileVersion": "8.1.0.0"
+          }
+        }
       }
     }
   },
@@ -663,6 +694,13 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "JetBrains.Annotations/2021.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-n9JSw5Z+F+6gp9vSv4aLH6p/bx3GAYA6FZVq1wJq/TJySv/kPgFKLGFeS7A8Xa5X4/GWorh5gd43yjamUgnBNA==",
+      "path": "jetbrains.annotations/2021.1.0",
+      "hashPath": "jetbrains.annotations.2021.1.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Hosting.Abstractions/2.1.1": {
       "type": "package",
@@ -1125,6 +1163,20 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "X.PagedList/8.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xBZNtE+WU6FEKEapLvIdTFn4h3Ue03dsBE1LfnhzsLFIrop5bX6f7UuXnsenG/QK1OPHYknkC0a0vPBAMo0bXQ==",
+      "path": "x.pagedlist/8.1.0",
+      "hashPath": "x.pagedlist.8.1.0.nupkg.sha512"
+    },
+    "X.PagedList.Mvc.Core/8.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Nqz9rSjU/St77F25GV8TogDfkVsbErC0o6o8hJtkkXrAilXHjsEALRMn8eVhgAFJ3XFWvvaHHSiDN3SnTGWSEA==",
+      "path": "x.pagedlist.mvc.core/8.1.0",
+      "hashPath": "x.pagedlist.mvc.core.8.1.0.nupkg.sha512"
     }
   }
 }

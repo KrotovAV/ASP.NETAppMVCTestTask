@@ -312,3 +312,7 @@ D:\Работа\GitProject\ASP.NETAppMVCTestTask\WebApplication1\obj\Debug\net7.
 D:\Работа\GitProject\ASP.NETAppMVCTestTask\WebApplication1\bin\Debug\net7.0\libman.json
 D:\Работа\GitProject\ASP.NETAppMVCTestTask\WebApplication1\obj\Debug\net7.0\WebApplication1.sourcelink.json
 D:\Работа\GitProject\ASP.NETAppMVCTestTask\WebApplication1\obj\Debug\net7.0\WebAppli.7D14BD69.Up2Date
+D:\Работа\GitProject\ASP.NETAppMVCTestTask\WebApplication1\obj\Debug\net7.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cs
+D:\Работа\GitProject\ASP.NETAppMVCTestTask\WebApplication1\bin\Debug\net7.0\X.PagedList.dll
+D:\Работа\GitProject\ASP.NETAppMVCTestTask\WebApplication1\bin\Debug\net7.0\X.PagedList.Mvc.Core.dll
+D:\Работа\GitProject\ASP.NETAppMVCTestTask\WebApplication1\bin\Debug\net7.0\JetBrains.Annotations.dll

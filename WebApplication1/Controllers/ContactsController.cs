@@ -3,10 +3,15 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Hosting;
+using X.PagedList;
 using WebApplication1.Entities;
 using WebApplication1.Entities.Enums;
 using WebApplication1.Interfaces;
 using WebApplication1.ViewModels;
+using System.Linq;
+using WebApplication1.Models;
+using System.Runtime.ConstrainedExecution;
+using System.Globalization;
 
 namespace WebApplication1.Controllers
 {
@@ -23,7 +28,8 @@ namespace WebApplication1.Controllers
             _environment = environment;
         }
 
-        public async Task<IActionResult> Index(string searchBy, string searchFor, string sortBy)
+        //public async Task<IActionResult> Index(string searchBy, string searchFor, string sortBy, int page = 1)
+        public async Task<IActionResult> Index(string searchBy, string searchFor, string sortBy, int? page)
         {
             IQueryable<Contact> contacts = _contactRepo.Items;
 
@@ -35,18 +41,35 @@ namespace WebApplication1.Controllers
                     || ser.Email.ToLower().Contains(searchFor.ToLower())
                     || ser.Mobile.ToLower().Contains(searchFor.ToLower())
                     || ser.Category.CategoryName.ToLower().Contains(searchFor.ToLower())
-                    || ser.BirthDate.ToString().ToLower().Contains(searchFor.ToLower())
+                    || ser.BirthDate.Value.ToString().ToLower().Contains(searchFor.ToLower())
                   );
             }
 
             if (searchBy == "name" && searchFor != null)
             {
+
+                // CL = CL.Where(ser => ser.Comment!=null ?
+                // ser.Comment.ToLower().Contains(searchfor.ToLower()) :
+                // ser.Comment != null).ToList();
+
                 contacts = contacts.Where(ser => ser.FirstName.ToLower().Contains(searchFor.ToLower())
-                || ser.LastName.ToLower().Contains(searchFor.ToLower()));
+                || ser.LastName != null ?
+                ser.LastName.ToLower().Contains(searchFor.ToLower()) :
+                ser.LastName != null
+                );
+
+                //contacts = contacts.Where(ser => ser.FirstName.ToLower().Contains(searchFor.ToLower())
+                //|| ser.LastName.ToLower().Contains(searchFor.ToLower()));
             }
             if (searchBy == "email" && searchFor != null)
             {
-                contacts = contacts.Where(ser => ser.Email.ToLower().Contains(searchFor.ToLower()));
+                contacts = contacts.Where(
+                    ser => ser.Email != null ?
+                    ser.Email.ToLower().Contains(searchFor.ToLower()) :
+                    ser.Email != null
+                    );
+
+                //contacts = contacts.Where(ser => ser.Email.ToLower().Contains(searchFor.ToLower()));
             }
             if (searchBy == "phone" && searchFor != null)
             {
@@ -54,11 +77,20 @@ namespace WebApplication1.Controllers
             }
             if (searchBy == "birthDate" && searchFor != null)
             {
-                contacts = contacts.Where(ser => ser.BirthDate.ToString().ToLower().Contains(searchFor.ToLower()));
+                contacts = contacts.Where(ser => ser.BirthDate != null ?
+                     ser.BirthDate.Value.ToString().ToLower().Contains(searchFor.ToLower()) :
+                     ser.BirthDate != null
+                    );
+                //contacts = contacts.Where(ser => ser.BirthDate.ToString().ToLower().Contains(searchFor.ToLower()));
             }
             if (searchBy == "category" && searchFor != null)
             {
-                contacts = contacts.Where(ser => ser.Category.CategoryName.ToLower().Contains(searchFor.ToLower()));
+                contacts = contacts.Where(
+                    ser => ser.Category != null ?
+                    ser.Category.CategoryName.ToLower().Contains(searchFor.ToLower()) :
+                    ser.Category != null
+                    );
+                //contacts = contacts.Where(ser => ser.Category.CategoryName.ToLower().Contains(searchFor.ToLower()));
             }
 
             switch (sortBy)
@@ -78,9 +110,9 @@ namespace WebApplication1.Controllers
                 default:
                     break;
             }
-            var contactsList = await contacts.ToListAsync();
 
-            return View(contactsList);
+            var contactsList = await contacts.ToListAsync();
+            return View(contactsList.ToPagedList(page ?? 1, 6));
         }
 
         [HttpGet]

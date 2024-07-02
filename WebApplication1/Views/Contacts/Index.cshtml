@@ -1,7 +1,9 @@
 ﻿@using WebApplication1.Entities;
+@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+@using X.PagedList.Web.Common
 
-@model List<Contact>
-
+@model IEnumerable<Contact>
 
 <div class="row" enctype="multipart/form-data">
 
@@ -72,7 +74,7 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach(var item in Model)
+                @foreach (var item in @Model)
                 {
                     <tr>
                         <td>
@@ -105,7 +107,31 @@
                         </td>
                     </tr>
                 }
+
             </tbody>
         </table>
+
+        <div class="row">
+            @Html.PagedListPager((IPagedList)Model, page => Url.Action("Index", new
+                {
+                    page = page,
+                    searchfor = @Context.Request.Query["searchFor"],
+                    searchby = @Context.Request.Query["searchBy"],
+                    sortby = @Context.Request.Query["sortBy"]
+                }),
+                     new X.PagedList.Web.Common.PagedListRenderOptions
+            {
+                LiElementClasses = new string[] { "page-item" },
+                PageClasses = new string[] { "page-link" },
+
+                DisplayLinkToFirstPage = PagedListDisplayMode.IfNeeded,
+                DisplayLinkToLastPage = PagedListDisplayMode.Always,
+                LinkToFirstPageFormat = "1",
+                MaximumPageNumbersToDisplay = 5,
+                ContainerDivClasses = new string[] { "pagination" }
+               
+            })
+        </div>
     </div>
-</div>
+</div> 
+

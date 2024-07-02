@@ -36,6 +36,8 @@
 *.x86_64
 *.hex
 
+*.jfm
+
 # Debug files
 *.dSYM/
 *.su
