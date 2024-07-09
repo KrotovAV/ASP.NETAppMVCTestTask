@@ -1,0 +1,61 @@
+﻿@using WebApplication1.Entities;
+
+@model Category
+
+<div class="row">
+    <div class="col-lg-4 offset-lg-4 col-md-6 offset-md-3 col-12">
+        <div class="card">
+            <div class="card-header">
+                <div class="alert alert-danger">
+                    <h5>You can't delete</h5>
+                </div>
+                Category ID @Model.Id
+            </div>
+            <div class="card-body">
+                <p class="card-text">Category Name: @Model.CategoryName</p>
+                <div class="alert alert-danger">
+                    <h5>To delete this category, you need to edit contacts.</h5>
+                </div>
+                @if (@Model.Contacts.Count != 0)
+                {
+                    <label>Contacts List:</label>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <td>First Name</td>
+                                <td>Last Name</td>
+                                <td>Info</td>
+                                <td>Manage</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.Contacts)
+                            {
+                                <tr>
+                                    <td>@item.FirstName</td>
+                                    <td>@item.LastName</td>
+                                    <td>
+                                        <a asp-action="Details" asp-controller="Contacts" class="btn btn-primary" asp-route-id="@item.Id">
+                                            View
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a asp-action="Edit" asp-controller="Contacts" class="btn btn-warning" asp-route-id="@item.Id">
+                                            Edit
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                }
+                else
+                {
+                    <p class="card-text">No contacts in category.</p>
+                }
+                <a class="btn btn-secondary" asp-controller="Category" asp-action="Index">Cancel</a>
+            </div>
+
+        </div>
+    </div>
+</div>

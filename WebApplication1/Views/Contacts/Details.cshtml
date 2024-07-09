@@ -11,18 +11,30 @@
             <div class="card-body">
                 <p class="card-text">First Name: @Model.FirstName</p>
                 <p class="card-text">Last Name: @Model.LastName</p>
+                @if (@Model.BirthDate != null)
+                {
                 <p class="card-text">Birth Date: @Model.BirthDate</p>
+                }
+                @if (@Model.Email != null)
+                {
                 <p class="card-text">Email: @Model.Email</p>
+                }
                 <p class="card-text">Mobile: @Model.Mobile</p>
                 @if (@Model.UnDeleteAble == true) {<p class="card-text">DeleteAble: yes</p>}
                 else {<p class="card-text">DeleteAble: no</p>}
                 <p class="card-text">Priority: @Model.PriorityType</p>
                 <p class="card-text">Category: @Model.Category?.CategoryName</p>
-                @{
-                    string imagePath = "~/img/" + @Model.PhotoPath;
+
+                @if (@Model.PhotoPath != null)
+                {
+                    string imagePath = "~/img/" + Model.PhotoPath;
+                    <img src="@imagePath" class="img-thumbnail" height="100" width="100" asp-append-version="true" />
+                    <p class="card-text">Photo:</p>
                 }
-                <img src="@imagePath" class="img-thumbnail" height="100" width="100" asp-append-version="true" />
-                <p class="card-text">Photo:</p>
+                else
+                {
+                    <p class="card-text">Photo: no photo</p>
+                }
                 <div class="form-group">
 
                     <a asp-action="Edit" asp-controller="Contacts" class="btn btn-warning" asp-route-id="@Model.Id">

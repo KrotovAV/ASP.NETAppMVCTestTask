@@ -3,9 +3,6 @@ using WebApplication1.Context;
 using WebApplication1.Entities;
 using WebApplication1.Interfaces;
 using WebApplication1.Repositories;
-using Microsoft.Extensions.FileProviders;
-using System.IO;
-using Microsoft.Extensions.Hosting.Internal;
 
 namespace WebApplication1
 {
@@ -35,7 +32,14 @@ namespace WebApplication1
                 app.UseExceptionHandler("/Home/Error");
                 app.UseHsts();
             }
-
+            //----------------------
+          
+            if (app.Environment.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage(new DeveloperExceptionPageOptions { SourceCodeLineCount = 10 });
+            }
+           
+            //----------------------
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 

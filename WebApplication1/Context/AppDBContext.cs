@@ -34,7 +34,8 @@ namespace WebApplication1.Context
         {
 
             modelBuilder.Entity<Contact>().HasOne(u => u.Category).WithMany(c => c.Contacts).HasForeignKey(u => u.CategoryId);
-            
+            //modelBuilder.Entity<Contact>().HasOne(u => u.Category).WithMany(c => c.Contacts).HasForeignKey(u => u.CategoryId).OnDelete(DeleteBehavior.SetNull);
+
             modelBuilder.Entity<Category>().HasData(
                 new Category[]{
                     new Category { Id=1, CategoryName="Category1"},

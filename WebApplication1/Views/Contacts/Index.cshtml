@@ -89,10 +89,21 @@
                         <td>@item.FirstName</td>
                         <td>@item.LastName</td>
                         <td>
-                            @{
+                            @* @{
                                 string imagePath = "~/img/" + @item.PhotoPath;
                             }
-                            <img src="@imagePath" class="img-thumbnail" height="40" width="40" asp-append-version="true" />
+                            <img src="@imagePath" class="img-thumbnail" height="40" width="40" asp-append-version="true" /> *@
+
+                            @if (@item.PhotoPath != null)
+                            {
+                                string imagePath = "~/img/" + item.PhotoPath;
+
+                                <img src="@imagePath" class="img-thumbnail" height="40" width="40" asp-append-version="true" />
+                            }
+                        @*     else
+                            {
+                                <p>no photo</p>
+                            } *@
                         </td>
                         <td>@item.BirthDate</td>
                         <td>@item.Email</td>

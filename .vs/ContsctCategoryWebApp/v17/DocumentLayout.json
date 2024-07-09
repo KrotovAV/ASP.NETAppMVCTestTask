@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\\u0420\u0430\u0431\u043E\u0442\u0430\\GitProject\\ASP.NETAppMVCTestTask\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ACAE2A0C-673B-4F9F-AFD6-7C1789D0F546}|WebApplication1\\WebApplication1.csproj|d:\\\u0440\u0430\u0431\u043E\u0442\u0430\\gitproject\\asp.netappmvctesttask\\webapplication1\\views\\contacts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ACAE2A0C-673B-4F9F-AFD6-7C1789D0F546}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\contacts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{ACAE2A0C-673B-4F9F-AFD6-7C1789D0F546}|WebApplication1\\WebApplication1.csproj|d:\\\u0440\u0430\u0431\u043E\u0442\u0430\\gitproject\\asp.netappmvctesttask\\webapplication1\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACAE2A0C-673B-4F9F-AFD6-7C1789D0F546}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ACAE2A0C-673B-4F9F-AFD6-7C1789D0F546}|WebApplication1\\WebApplication1.csproj|d:\\\u0440\u0430\u0431\u043E\u0442\u0430\\gitproject\\asp.netappmvctesttask\\webapplication1\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,9 +55,22 @@
           ]
         },
         {
-          "DockedHeight": 353,
-          "SelectedChildIndex": 1,
+          "DockedHeight": 398,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0442\u0430\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0442\u0430\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T07:43:58.269Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -66,27 +79,15 @@
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ContactsController.cs",
               "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0442\u0430\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\Controllers\\ContactsController.cs",
               "RelativeToolTip": "WebApplication1\\Controllers\\ContactsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T15:18:19.727Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0442\u0430\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\Views\\Contacts\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\Contacts\\Index.cshtml",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0442\u0430\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\Views\\Contacts\\Index.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Contacts\\Index.cshtml",
-              "ViewState": "AQIAAGwAAAAAAAAAAAAAAHQAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-22T17:52:10.875Z",
+              "WhenOpened": "2024-07-09T06:16:34.403Z",
               "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedHeight": 146,
+          "DockedHeight": 101,
           "SelectedChildIndex": -1,
           "Children": [
             {

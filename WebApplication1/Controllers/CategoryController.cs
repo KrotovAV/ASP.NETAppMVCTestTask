@@ -1,7 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using WebApplication1.Context;
 using WebApplication1.Entities;
 using WebApplication1.Interfaces;
 
@@ -101,30 +99,26 @@ namespace WebApplication1.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Delete(Category category)
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            //if (ModelState.IsValid)
-            //{
-                try
-                {
-                    var categoryToDelete = await _categoryRepo.GetAsync(category.Id);
 
-                    if (categoryToDelete != null)
-                    {
-                        await _categoryRepo.RemoveAsync(categoryToDelete.Id);
+            var categoryToDelete = await _categoryRepo.GetAsync(id);
 
-                        return RedirectToAction("Index");
-                    }
-                }
-                catch (Exception ex)
-                {
-                    ModelState.AddModelError(string.Empty, $"Что-то пошло не так {ex.Message}");
-                }
-            //}
+            if (categoryToDelete.Contacts.Count() != 0)
+            {
+                return RedirectToAction("Warning", new { id = categoryToDelete.Id });
+            }
 
-            //ModelState.AddModelError(string.Empty, $"Что-то пошло не так, недопустимая модель");
+            await _categoryRepo.RemoveAsync(categoryToDelete.Id);
 
-            return View(category);
+            return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Warning(int id)
+        {
+            var contact = await _categoryRepo.GetAsync(id);
+            return View(contact);
         }
     }
 }

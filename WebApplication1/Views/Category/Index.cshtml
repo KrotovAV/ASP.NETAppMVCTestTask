@@ -14,8 +14,9 @@
             <thead>
                 <tr>
                     <td>Manage</td>
-                    <td>Id</td>
+                    @* <td>Id</td> *@
                     <td>Category Name</td>
+                    <td>Contains</td>
                     <td>Info</td>
                 </tr>
             </thead>
@@ -31,8 +32,9 @@
                                 Delete
                             </a>
                         </td>
-                        <td>@item.Id</td>
+                        @* <td>@item.Id</td> *@
                         <td>@item.CategoryName</td>
+                        <td>@item.Contacts.Count</td>
                         <td>
                             <a asp-action="Details" asp-controller="Category" class="btn btn-primary" asp-route-id="@item.Id">
                                 View

@@ -1,0 +1,40 @@
+﻿@using WebApplication1.ViewModels;
+
+@model ContactViewModel
+
+<div class="row">
+    <div class="col-lg-4 offset-lg-4 col-md-6 offset-md-3 col-12">
+        <div class="card">
+            <div class="card-header">
+                <div class="alert alert-danger">
+                    <h5>You can't delete</h5>
+                </div>
+                Contact ID @Model.Id
+            </div>
+            <div class="card-body">
+                <p class="card-text">First Name: @Model.FirstName</p>
+                <p class="card-text">Last Name: @Model.LastName</p>
+                @if (@Model.UnDeleteAble == true)
+                {
+                    <p class="card-text">DeleteAble: yes</p>
+                }
+                else
+                {
+                    <p class="card-text">DeleteAble: no</p>
+                }
+                <div class="alert alert-danger">
+                    <h5>Remove deletion protection - UnDeleteAble</h5>
+                </div>
+                <div class="form-group">
+
+                    <a asp-action="Edit" asp-controller="Contacts" class="btn btn-warning" asp-route-id="@Model.Id">
+                        Edit
+                    </a>
+                    <a asp-action="Index" asp-controller="Contacts" class="btn btn-primary">
+                        Back to List
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -10,6 +10,8 @@
             </div>
             <div class="card-body">
                 <p class="card-text">Category Name: @Model.CategoryName</p>
+                 @if (@Model.Contacts.Count != 0)
+                    {
                 <label>Contacts List:</label>
                 <table class="table">
                     <thead>
@@ -26,7 +28,7 @@
                                 <td>@item.FirstName</td>
                                 <td>@item.LastName</td>
                                 <td>
-                                    <a asp-action="Index" asp-controller="ContactDetails" class="btn btn-primary mx-2 my-2" asp-route-id="@item.Id">
+                                    <a asp-action="Details" asp-controller="Contacts" class="btn btn-primary" asp-route-id="@item.Id">
                                         View
                                     </a>
                                 </td>
@@ -34,8 +36,12 @@
                         }
                     </tbody>
                 </table>
-
-                <a class="btn btn-secondary" asp-controller="Category" asp-action="index">Cancel</a>
+                }
+                else
+                {
+                    <p class="card-text">No contacts in category.</p>
+                }
+                <a class="btn btn-secondary" asp-controller="Category" asp-action="Index">Cancel</a>
             </div>
 
         </div>

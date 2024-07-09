@@ -1,17 +1,11 @@
-﻿using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Hosting;
 using X.PagedList;
 using WebApplication1.Entities;
 using WebApplication1.Entities.Enums;
 using WebApplication1.Interfaces;
 using WebApplication1.ViewModels;
-using System.Linq;
-using WebApplication1.Models;
-using System.Runtime.ConstrainedExecution;
-using System.Globalization;
 
 namespace WebApplication1.Controllers
 {
@@ -28,7 +22,6 @@ namespace WebApplication1.Controllers
             _environment = environment;
         }
 
-        //public async Task<IActionResult> Index(string searchBy, string searchFor, string sortBy, int page = 1)
         public async Task<IActionResult> Index(string searchBy, string searchFor, string sortBy, int? page)
         {
             IQueryable<Contact> contacts = _contactRepo.Items;
@@ -252,6 +245,11 @@ namespace WebApplication1.Controllers
         {
             var contactToDelete = await _contactRepo.GetAsync(id);
 
+            if (contactToDelete.UnDeleteAble == true)
+            {
+                return RedirectToAction("Warning", new { id = contactToDelete.Id });
+            }
+
             if (contactToDelete.PhotoPath != null)
             {
                 string exitingFile = Path.Combine(_environment.WebRootPath, "img", contactToDelete.PhotoPath);
@@ -260,6 +258,37 @@ namespace WebApplication1.Controllers
             await _contactRepo.RemoveAsync(contactToDelete.Id);
             return RedirectToAction("Index");
         }
+
+        [HttpGet]
+        public async Task<IActionResult> Warning(int id)
+        {
+            var contact = await _contactRepo.GetAsync(id);
+            if (contact != null)
+            {
+                var contactViewModel = new ContactViewModel()
+                {
+                    Id = contact.Id,
+                    FirstName = contact.FirstName,
+                    LastName = contact.LastName,
+                    Email = contact.Email,
+                    UnDeleteAble = contact.UnDeleteAble,
+                    PriorityType = contact.PriorityType,
+                    Mobile = contact.Mobile,
+                    Category = contact.Category,
+                    PhotoPath = contact.PhotoPath,
+                    BirthDate = contact.BirthDate
+                };
+                return View(contactViewModel);
+            }
+            return NotFound();
+        }
+
+        //[HttpPost]
+        //public async Task<IActionResult> Warning(Contact contact)
+        //{
+            
+        //    return View("Warning");
+        //}
 
         private string UploadFile(IFormFile formFile, string firstName, string lastName)
         {
@@ -271,6 +300,9 @@ namespace WebApplication1.Controllers
             }
             return uniqueFileName;
         }
+
+
+       
 
         private async Task LoadDropdownList()
         {
