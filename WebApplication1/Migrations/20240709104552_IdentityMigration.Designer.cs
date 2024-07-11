@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WebApplication1.Context;
 
@@ -11,9 +12,11 @@ using WebApplication1.Context;
 namespace WebApplication1.Migrations
 {
     [DbContext(typeof(AppDBContext))]
-    partial class AppDBContextModelSnapshot : ModelSnapshot
+    [Migration("20240709104552_IdentityMigration")]
+    partial class IdentityMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -223,149 +226,149 @@ namespace WebApplication1.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            //modelBuilder.Entity("WebApplication1.Entities.Category", b =>
-            //    {
-            //        b.Property<int>("Id")
-            //            .ValueGeneratedOnAdd()
-            //            .HasColumnType("int");
+            modelBuilder.Entity("WebApplication1.Entities.Category", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
 
-            //        SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-            //        b.Property<string>("CategoryName")
-            //            .IsRequired()
-            //            .HasColumnType("nvarchar(max)");
+                    b.Property<string>("CategoryName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
-            //        b.HasKey("Id");
+                    b.HasKey("Id");
 
-            //        b.ToTable("Categories");
+                    b.ToTable("Categories");
 
-            //        b.HasData(
-            //            new
-            //            {
-            //                Id = 1,
-            //                CategoryName = "Category1"
-            //            },
-            //            new
-            //            {
-            //                Id = 2,
-            //                CategoryName = "Category2"
-            //            },
-            //            new
-            //            {
-            //                Id = 3,
-            //                CategoryName = "Category3"
-            //            });
-            //    });
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CategoryName = "Category1"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CategoryName = "Category2"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CategoryName = "Category3"
+                        });
+                });
 
-            //modelBuilder.Entity("WebApplication1.Entities.Contact", b =>
-            //    {
-            //        b.Property<int>("Id")
-            //            .ValueGeneratedOnAdd()
-            //            .HasColumnType("int");
+            modelBuilder.Entity("WebApplication1.Entities.Contact", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
 
-            //        SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-            //        b.Property<DateTime?>("BirthDate")
-            //            .HasColumnType("datetime2");
+                    b.Property<DateTime?>("BirthDate")
+                        .HasColumnType("datetime2");
 
-            //        b.Property<int?>("CategoryId")
-            //            .HasColumnType("int");
+                    b.Property<int?>("CategoryId")
+                        .HasColumnType("int");
 
-            //        b.Property<string>("Email")
-            //            .HasColumnType("nvarchar(max)");
+                    b.Property<string>("Email")
+                        .HasColumnType("nvarchar(max)");
 
-            //        b.Property<string>("FirstName")
-            //            .IsRequired()
-            //            .HasColumnType("nvarchar(max)");
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
-            //        b.Property<string>("LastName")
-            //            .HasColumnType("nvarchar(max)");
+                    b.Property<string>("LastName")
+                        .HasColumnType("nvarchar(max)");
 
-            //        b.Property<string>("Mobile")
-            //            .IsRequired()
-            //            .HasColumnType("nvarchar(max)");
+                    b.Property<string>("Mobile")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
-            //        b.Property<string>("PhotoPath")
-            //            .HasColumnType("nvarchar(max)");
+                    b.Property<string>("PhotoPath")
+                        .HasColumnType("nvarchar(max)");
 
-            //        b.Property<int>("PriorityType")
-            //            .HasColumnType("int");
+                    b.Property<int>("PriorityType")
+                        .HasColumnType("int");
 
-            //        b.Property<bool>("UnDeleteAble")
-            //            .HasColumnType("bit");
+                    b.Property<bool>("UnDeleteAble")
+                        .HasColumnType("bit");
 
-            //        b.HasKey("Id");
+                    b.HasKey("Id");
 
-            //        b.HasIndex("CategoryId");
+                    b.HasIndex("CategoryId");
 
-            //        b.ToTable("Contacts");
+                    b.ToTable("Contacts");
 
-            //        b.HasData(
-            //            new
-            //            {
-            //                Id = 1,
-            //                BirthDate = new DateTime(2011, 1, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
-            //                CategoryId = 1,
-            //                Email = "e1@e.e",
-            //                FirstName = "name1",
-            //                LastName = "last1",
-            //                Mobile = "1234567891",
-            //                PhotoPath = "/img/01.jpg",
-            //                PriorityType = 0,
-            //                UnDeleteAble = false
-            //            },
-            //            new
-            //            {
-            //                Id = 2,
-            //                BirthDate = new DateTime(2010, 2, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
-            //                CategoryId = 1,
-            //                Email = "e2@e.e",
-            //                FirstName = "name2",
-            //                LastName = "last2",
-            //                Mobile = "1234567892",
-            //                PhotoPath = "/img/02.jpg",
-            //                PriorityType = 1,
-            //                UnDeleteAble = true
-            //            },
-            //            new
-            //            {
-            //                Id = 3,
-            //                BirthDate = new DateTime(2012, 3, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
-            //                CategoryId = 2,
-            //                Email = "e3@e.e",
-            //                FirstName = "name3",
-            //                LastName = "last3",
-            //                Mobile = "1234567893",
-            //                PhotoPath = "/img/03.jpg",
-            //                PriorityType = 2,
-            //                UnDeleteAble = false
-            //            },
-            //            new
-            //            {
-            //                Id = 4,
-            //                BirthDate = new DateTime(2013, 4, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
-            //                CategoryId = 2,
-            //                Email = "e4@e.e",
-            //                FirstName = "name4",
-            //                LastName = "last4",
-            //                Mobile = "1234567894",
-            //                PhotoPath = "/img/04.jpg",
-            //                PriorityType = 3,
-            //                UnDeleteAble = false
-            //            },
-            //            new
-            //            {
-            //                Id = 5,
-            //                CategoryId = 3,
-            //                Email = "e5@e.e",
-            //                FirstName = "name5",
-            //                LastName = "last5",
-            //                Mobile = "1234567895",
-            //                PhotoPath = "/img/05.jpg",
-            //                PriorityType = 3,
-            //                UnDeleteAble = false
-            //            });
-            //    });
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            BirthDate = new DateTime(2011, 1, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            CategoryId = 1,
+                            Email = "e1@e.e",
+                            FirstName = "name1",
+                            LastName = "last1",
+                            Mobile = "1234567891",
+                            PhotoPath = "/img/01.jpg",
+                            PriorityType = 0,
+                            UnDeleteAble = false
+                        },
+                        new
+                        {
+                            Id = 2,
+                            BirthDate = new DateTime(2010, 2, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            CategoryId = 1,
+                            Email = "e2@e.e",
+                            FirstName = "name2",
+                            LastName = "last2",
+                            Mobile = "1234567892",
+                            PhotoPath = "/img/02.jpg",
+                            PriorityType = 1,
+                            UnDeleteAble = true
+                        },
+                        new
+                        {
+                            Id = 3,
+                            BirthDate = new DateTime(2012, 3, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            CategoryId = 2,
+                            Email = "e3@e.e",
+                            FirstName = "name3",
+                            LastName = "last3",
+                            Mobile = "1234567893",
+                            PhotoPath = "/img/03.jpg",
+                            PriorityType = 2,
+                            UnDeleteAble = false
+                        },
+                        new
+                        {
+                            Id = 4,
+                            BirthDate = new DateTime(2013, 4, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            CategoryId = 2,
+                            Email = "e4@e.e",
+                            FirstName = "name4",
+                            LastName = "last4",
+                            Mobile = "1234567894",
+                            PhotoPath = "/img/04.jpg",
+                            PriorityType = 3,
+                            UnDeleteAble = false
+                        },
+                        new
+                        {
+                            Id = 5,
+                            CategoryId = 3,
+                            Email = "e5@e.e",
+                            FirstName = "name5",
+                            LastName = "last5",
+                            Mobile = "1234567895",
+                            PhotoPath = "/img/05.jpg",
+                            PriorityType = 3,
+                            UnDeleteAble = false
+                        });
+                });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {

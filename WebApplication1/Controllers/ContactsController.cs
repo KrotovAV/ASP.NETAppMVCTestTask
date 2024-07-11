@@ -6,9 +6,11 @@ using WebApplication1.Entities;
 using WebApplication1.Entities.Enums;
 using WebApplication1.Interfaces;
 using WebApplication1.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 
 namespace WebApplication1.Controllers
 {
+    [Authorize]
     public class ContactsController : Controller
     {
         private IRepository<Contact> _contactRepo;
@@ -147,6 +149,7 @@ namespace WebApplication1.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(ContactCreateViewModel contactCreateViewModel)
         {
             if (ModelState.IsValid)
@@ -198,6 +201,7 @@ namespace WebApplication1.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(ContactEditViewModel contactEditViewModel)
         {
             if (ModelState.IsValid)
@@ -241,6 +245,7 @@ namespace WebApplication1.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var contactToDelete = await _contactRepo.GetAsync(id);
@@ -282,13 +287,6 @@ namespace WebApplication1.Controllers
             }
             return NotFound();
         }
-
-        //[HttpPost]
-        //public async Task<IActionResult> Warning(Contact contact)
-        //{
-            
-        //    return View("Warning");
-        //}
 
         private string UploadFile(IFormFile formFile, string firstName, string lastName)
         {

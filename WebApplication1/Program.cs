@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.FileProviders;
 using WebApplication1.Context;
 using WebApplication1.Entities;
@@ -18,7 +19,10 @@ namespace WebApplication1
             builder.Services.AddTransient<IRepository<Contact>, ContactRepository>();
             builder.Services.AddTransient<IRepository<Category>, CategoryRepository>();
             builder.Configuration.GetConnectionString("Connection");
-
+            //------------
+            builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AppDBContext>();
+            builder.Services.AddControllersWithViews();
+            //--------------
             builder.Services.AddSingleton<IFileProvider>(new PhysicalFileProvider(
                 Path.Combine(Directory.GetCurrentDirectory(), "wwwroot")));
 
@@ -45,11 +49,17 @@ namespace WebApplication1
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
+            
+
+
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Contacts}/{action=Index}/{id?}");
+                pattern: "{controller=Home}/{action=Index}/{id?}"
+                );
+
 
             app.Run();
         }

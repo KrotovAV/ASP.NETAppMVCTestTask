@@ -37,6 +37,8 @@
 *.hex
 
 *.jfm
+* .mdf
+*.ldf
 
 # Debug files
 *.dSYM/
