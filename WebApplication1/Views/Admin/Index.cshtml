@@ -1,0 +1,42 @@
+﻿@using WebApplication1.Entities;
+
+@model IEnumerable<Microsoft.AspNetCore.Identity.IdentityUser>
+
+<div class="row">
+
+    <div class="col-md-12">
+        <table class="table">
+            <thead>
+                <tr>
+                    
+                    @* <td>Id</td> *@
+                    @* <td>Category Name</td> *@
+                    <td>First Name</td>
+                    <td>Last Name</td>
+                    <td>Email</td>
+                    <td>Manage</td>
+                    <td>Password</td>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>Last name</td>
+                        <td>@item.Email</td>
+                        <td>
+                            <a asp-action="Edit" asp-controller="Category" class="btn btn-warning" asp-route-id="@item.Id">
+                                Edit
+                            </a>
+                            <a asp-action="Delete" asp-controller="Category" class="btn btn-danger" asp-route-id="@item.Id">
+                                Delete
+                            </a>
+                        </td>
+                        <td>@item.PasswordHash</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

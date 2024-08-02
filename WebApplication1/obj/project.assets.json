@@ -3493,11 +3493,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\WebApplication1.csproj",
+      "projectPath": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\WebApplication1.csproj",
       "packagesPath": "C:\\Users\\10\\.nuget\\packages\\",
-      "outputPath": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\obj\\",
+      "outputPath": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\10\\AppData\\Roaming\\NuGet\\NuGet.Config",

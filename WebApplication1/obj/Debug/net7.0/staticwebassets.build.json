@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nSDkyDIrHWbAY7HufDPLyz5yHrHceAChvW2LY9OHjhQ=",
+  "Hash": "aqSMHMkSNGrcMlip9Onkk6xzyAITwdlRQve/r1XF2ao=",
   "Source": "WebApplication1",
   "BasePath": "_content/WebApplication1",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "WebApplication1\\wwwroot",
       "Source": "WebApplication1",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\obj\\Debug\\net7.0\\scopedcss\\bundle\\WebApplication1.styles.css",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\obj\\Debug\\net7.0\\scopedcss\\bundle\\WebApplication1.styles.css",
       "SourceId": "WebApplication1",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "WebApplication1.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\obj\\Debug\\net7.0\\scopedcss\\bundle\\WebApplication1.styles.css"
+      "OriginalItemSpec": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\obj\\Debug\\net7.0\\scopedcss\\bundle\\WebApplication1.styles.css"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css",
       "SourceId": "WebApplication1",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "WebApplication1.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css"
+      "OriginalItemSpec": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\css\\site.css",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\css\\site.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\favicon.ico",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\favicon.ico",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\img\\01.jpg",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\img\\01.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "img/01.jpg",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\img\\01.jpg"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\img\\02.jpg",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\img\\02.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "img/02.jpg",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\img\\02.jpg"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\img\\03.jpg",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\img\\03.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "img/03.jpg",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\img\\03.jpg"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\img\\04.jpg",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\img\\04.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "img/04.jpg",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\img\\04.jpg"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\img\\05.jpg",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\img\\05.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "img/05.jpg",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\img\\05.jpg"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\img\\Na14_Last14_0536e895-6708-4e7a-b6d3-14f5b262b77f.jpg",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\img\\Na14_Last14_0536e895-6708-4e7a-b6d3-14f5b262b77f.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "img/Na14_Last14_0536e895-6708-4e7a-b6d3-14f5b262b77f.jpg",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Na14_Last14_0536e895-6708-4e7a-b6d3-14f5b262b77f.jpg"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\img\\nam12_last12_c2ee3c32-6eb5-4e63-9a30-b4000cb94222.jpg",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\img\\nam12_last12_c2ee3c32-6eb5-4e63-9a30-b4000cb94222.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "img/nam12_last12_c2ee3c32-6eb5-4e63-9a30-b4000cb94222.jpg",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\img\\nam12_last12_c2ee3c32-6eb5-4e63-9a30-b4000cb94222.jpg"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\img\\Nam13_La13_2b55fd92-f15e-48f8-879e-4f641ed5db36.jpg",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\img\\Nam13_La13_2b55fd92-f15e-48f8-879e-4f641ed5db36.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "img/Nam13_La13_2b55fd92-f15e-48f8-879e-4f641ed5db36.jpg",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Nam13_La13_2b55fd92-f15e-48f8-879e-4f641ed5db36.jpg"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\img\\Name 15_Last15_82a14eee-fbef-4f14-8995-c210f7c03a91.jpg",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\img\\Name 15_Last15_82a14eee-fbef-4f14-8995-c210f7c03a91.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "img/Name 15_Last15_82a14eee-fbef-4f14-8995-c210f7c03a91.jpg",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Name 15_Last15_82a14eee-fbef-4f14-8995-c210f7c03a91.jpg"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\img\\Name10_Last10_b5e125dd-f8d9-4b0e-9d42-70c5d826067e.jpg",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\img\\Name10_Last10_b5e125dd-f8d9-4b0e-9d42-70c5d826067e.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "img/Name10_Last10_b5e125dd-f8d9-4b0e-9d42-70c5d826067e.jpg",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Name10_Last10_b5e125dd-f8d9-4b0e-9d42-70c5d826067e.jpg"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\img\\Name11_Last11_a25c1431-a77a-4164-b613-849fda3dae0b.jpg",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\img\\Name11_Last11_a25c1431-a77a-4164-b613-849fda3dae0b.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "img/Name11_Last11_a25c1431-a77a-4164-b613-849fda3dae0b.jpg",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Name11_Last11_a25c1431-a77a-4164-b613-849fda3dae0b.jpg"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\img\\Name6_Last6_f3768816-6abd-4671-a116-6fe4b8c35d26.jpg",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\img\\Name6_Last6_f3768816-6abd-4671-a116-6fe4b8c35d26.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "img/Name6_Last6_f3768816-6abd-4671-a116-6fe4b8c35d26.jpg",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Name6_Last6_f3768816-6abd-4671-a116-6fe4b8c35d26.jpg"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\img\\Name7_Last7_af7f85ca-ca65-4419-b65f-a2dc600c1e3f.jpg",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\img\\Name7_Last7_af7f85ca-ca65-4419-b65f-a2dc600c1e3f.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "img/Name7_Last7_af7f85ca-ca65-4419-b65f-a2dc600c1e3f.jpg",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Name7_Last7_af7f85ca-ca65-4419-b65f-a2dc600c1e3f.jpg"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\img\\Name8_LastName8_f9dcedb1-ff30-4268-8a19-ed46e82065ec.jpg",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\img\\Name8_LastName8_f9dcedb1-ff30-4268-8a19-ed46e82065ec.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "img/Name8_LastName8_f9dcedb1-ff30-4268-8a19-ed46e82065ec.jpg",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Name8_LastName8_f9dcedb1-ff30-4268-8a19-ed46e82065ec.jpg"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\img\\Name9_LastName9_f6760e89-e8ec-4fe4-8c25-133ad1305a16.jpg",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\img\\Name9_LastName9_f6760e89-e8ec-4fe4-8c25-133ad1305a16.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "img/Name9_LastName9_f6760e89-e8ec-4fe4-8c25-133ad1305a16.jpg",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Name9_LastName9_f6760e89-e8ec-4fe4-8c25-133ad1305a16.jpg"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\js\\site.js",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\js\\site.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/css/bootstrap.css",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -834,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -872,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -891,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -910,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -929,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -948,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -967,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1005,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1024,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1043,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1062,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1081,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1100,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1119,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1138,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1176,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1195,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1328,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1347,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1366,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1385,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1404,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1423,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1442,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1461,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1480,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1499,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1518,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1537,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1556,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1575,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1594,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1651,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1670,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1689,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1708,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1727,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1746,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1765,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1784,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1803,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1822,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1841,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1860,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1879,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1898,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1917,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1936,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1974,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1993,10 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\js\\bootstrap.js",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\js\\bootstrap.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/js/bootstrap.js",
       "AssetKind": "All",
@@ -2012,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\js\\bootstrap.js.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\js\\bootstrap.js.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2031,10 +2031,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2050,10 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2069,10 +2069,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2088,10 +2088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_accordion.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_accordion.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/_accordion.scss",
       "AssetKind": "All",
@@ -2107,10 +2107,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_accordion.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_alert.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_alert.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/_alert.scss",
       "AssetKind": "All",
@@ -2126,10 +2126,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_alert.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_badge.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_badge.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/_badge.scss",
       "AssetKind": "All",
@@ -2145,10 +2145,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_badge.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_breadcrumb.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_breadcrumb.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/_breadcrumb.scss",
       "AssetKind": "All",
@@ -2164,10 +2164,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_breadcrumb.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_button-group.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_button-group.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/_button-group.scss",
       "AssetKind": "All",
@@ -2183,10 +2183,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_button-group.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_buttons.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_buttons.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/_buttons.scss",
       "AssetKind": "All",
@@ -2202,10 +2202,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_buttons.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_card.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_card.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/_card.scss",
       "AssetKind": "All",
@@ -2221,10 +2221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_card.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_carousel.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_carousel.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/_carousel.scss",
       "AssetKind": "All",
@@ -2240,10 +2240,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_carousel.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_close.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_close.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/_close.scss",
       "AssetKind": "All",
@@ -2259,10 +2259,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_close.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_containers.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_containers.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/_containers.scss",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_containers.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_dropdown.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_dropdown.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/_dropdown.scss",
       "AssetKind": "All",
@@ -2297,10 +2297,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_dropdown.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_forms.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_forms.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/_forms.scss",
       "AssetKind": "All",
@@ -2316,10 +2316,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_forms.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_functions.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_functions.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/_functions.scss",
       "AssetKind": "All",
@@ -2335,10 +2335,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_functions.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_grid.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_grid.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/_grid.scss",
       "AssetKind": "All",
@@ -2354,10 +2354,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_grid.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_helpers.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_helpers.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/_helpers.scss",
       "AssetKind": "All",
@@ -2373,10 +2373,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_helpers.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_images.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_images.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/_images.scss",
       "AssetKind": "All",
@@ -2392,10 +2392,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_images.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_list-group.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_list-group.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/_list-group.scss",
       "AssetKind": "All",
@@ -2411,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_list-group.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_maps.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_maps.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/_maps.scss",
       "AssetKind": "All",
@@ -2430,10 +2430,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_maps.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_mixins.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_mixins.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/_mixins.scss",
       "AssetKind": "All",
@@ -2449,10 +2449,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_mixins.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_modal.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_modal.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/_modal.scss",
       "AssetKind": "All",
@@ -2468,10 +2468,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_modal.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_nav.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_nav.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/_nav.scss",
       "AssetKind": "All",
@@ -2487,10 +2487,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_nav.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_navbar.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_navbar.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/_navbar.scss",
       "AssetKind": "All",
@@ -2506,10 +2506,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_navbar.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_offcanvas.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_offcanvas.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/_offcanvas.scss",
       "AssetKind": "All",
@@ -2525,10 +2525,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_offcanvas.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_pagination.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_pagination.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/_pagination.scss",
       "AssetKind": "All",
@@ -2544,10 +2544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_pagination.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_placeholders.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_placeholders.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/_placeholders.scss",
       "AssetKind": "All",
@@ -2563,10 +2563,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_placeholders.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_popover.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_popover.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/_popover.scss",
       "AssetKind": "All",
@@ -2582,10 +2582,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_popover.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_progress.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_progress.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/_progress.scss",
       "AssetKind": "All",
@@ -2601,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_progress.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_reboot.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_reboot.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/_reboot.scss",
       "AssetKind": "All",
@@ -2620,10 +2620,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_reboot.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_root.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_root.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/_root.scss",
       "AssetKind": "All",
@@ -2639,10 +2639,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_root.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_spinners.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_spinners.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/_spinners.scss",
       "AssetKind": "All",
@@ -2658,10 +2658,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_spinners.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_tables.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_tables.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/_tables.scss",
       "AssetKind": "All",
@@ -2677,10 +2677,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_tables.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_toasts.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_toasts.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/_toasts.scss",
       "AssetKind": "All",
@@ -2696,10 +2696,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_toasts.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_tooltip.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_tooltip.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/_tooltip.scss",
       "AssetKind": "All",
@@ -2715,10 +2715,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_tooltip.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_transitions.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_transitions.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/_transitions.scss",
       "AssetKind": "All",
@@ -2734,10 +2734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_transitions.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_type.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_type.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/_type.scss",
       "AssetKind": "All",
@@ -2753,10 +2753,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_type.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_utilities.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_utilities.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/_utilities.scss",
       "AssetKind": "All",
@@ -2772,10 +2772,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_utilities.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_variables.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_variables.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/_variables.scss",
       "AssetKind": "All",
@@ -2791,10 +2791,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_variables.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_variables-dark.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\_variables-dark.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/_variables-dark.scss",
       "AssetKind": "All",
@@ -2810,10 +2810,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_variables-dark.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\bootstrap.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\bootstrap.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/bootstrap.scss",
       "AssetKind": "All",
@@ -2829,10 +2829,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\bootstrap.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\bootstrap-grid.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\bootstrap-grid.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/bootstrap-grid.scss",
       "AssetKind": "All",
@@ -2848,10 +2848,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\bootstrap-grid.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\bootstrap-reboot.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/bootstrap-reboot.scss",
       "AssetKind": "All",
@@ -2867,10 +2867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\bootstrap-reboot.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\bootstrap-utilities.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/bootstrap-utilities.scss",
       "AssetKind": "All",
@@ -2886,10 +2886,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\bootstrap-utilities.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\forms\\_floating-labels.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/forms/_floating-labels.scss",
       "AssetKind": "All",
@@ -2905,10 +2905,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\forms\\_floating-labels.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\forms\\_form-check.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\forms\\_form-check.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/forms/_form-check.scss",
       "AssetKind": "All",
@@ -2924,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\forms\\_form-check.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\forms\\_form-control.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\forms\\_form-control.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/forms/_form-control.scss",
       "AssetKind": "All",
@@ -2943,10 +2943,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\forms\\_form-control.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\forms\\_form-range.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\forms\\_form-range.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/forms/_form-range.scss",
       "AssetKind": "All",
@@ -2962,10 +2962,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\forms\\_form-range.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\forms\\_form-select.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\forms\\_form-select.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/forms/_form-select.scss",
       "AssetKind": "All",
@@ -2981,10 +2981,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\forms\\_form-select.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\forms\\_form-text.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\forms\\_form-text.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/forms/_form-text.scss",
       "AssetKind": "All",
@@ -3000,10 +3000,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\forms\\_form-text.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\forms\\_input-group.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\forms\\_input-group.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/forms/_input-group.scss",
       "AssetKind": "All",
@@ -3019,10 +3019,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\forms\\_input-group.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\forms\\_labels.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\forms\\_labels.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/forms/_labels.scss",
       "AssetKind": "All",
@@ -3038,10 +3038,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\forms\\_labels.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\forms\\_validation.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\forms\\_validation.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/forms/_validation.scss",
       "AssetKind": "All",
@@ -3057,10 +3057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\forms\\_validation.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_clearfix.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/helpers/_clearfix.scss",
       "AssetKind": "All",
@@ -3076,10 +3076,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\helpers\\_clearfix.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_color-bg.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_color-bg.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/helpers/_color-bg.scss",
       "AssetKind": "All",
@@ -3095,10 +3095,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\helpers\\_color-bg.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_colored-links.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/helpers/_colored-links.scss",
       "AssetKind": "All",
@@ -3114,10 +3114,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\helpers\\_colored-links.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_focus-ring.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_focus-ring.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/helpers/_focus-ring.scss",
       "AssetKind": "All",
@@ -3133,10 +3133,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\helpers\\_focus-ring.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_icon-link.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_icon-link.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/helpers/_icon-link.scss",
       "AssetKind": "All",
@@ -3152,10 +3152,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\helpers\\_icon-link.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_position.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_position.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/helpers/_position.scss",
       "AssetKind": "All",
@@ -3171,10 +3171,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\helpers\\_position.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_ratio.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/helpers/_ratio.scss",
       "AssetKind": "All",
@@ -3190,10 +3190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\helpers\\_ratio.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_stacks.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_stacks.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/helpers/_stacks.scss",
       "AssetKind": "All",
@@ -3209,10 +3209,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\helpers\\_stacks.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_stretched-link.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/helpers/_stretched-link.scss",
       "AssetKind": "All",
@@ -3228,10 +3228,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\helpers\\_stretched-link.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_text-truncation.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/helpers/_text-truncation.scss",
       "AssetKind": "All",
@@ -3247,10 +3247,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\helpers\\_text-truncation.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/helpers/_visually-hidden.scss",
       "AssetKind": "All",
@@ -3266,10 +3266,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_vr.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_vr.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/helpers/_vr.scss",
       "AssetKind": "All",
@@ -3285,10 +3285,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\helpers\\_vr.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_alert.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_alert.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/mixins/_alert.scss",
       "AssetKind": "All",
@@ -3304,10 +3304,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_alert.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_backdrop.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_backdrop.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/mixins/_backdrop.scss",
       "AssetKind": "All",
@@ -3323,10 +3323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_backdrop.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_banner.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_banner.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/mixins/_banner.scss",
       "AssetKind": "All",
@@ -3342,10 +3342,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_banner.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_border-radius.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/mixins/_border-radius.scss",
       "AssetKind": "All",
@@ -3361,10 +3361,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_border-radius.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_box-shadow.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/mixins/_box-shadow.scss",
       "AssetKind": "All",
@@ -3380,10 +3380,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_box-shadow.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_breakpoints.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/mixins/_breakpoints.scss",
       "AssetKind": "All",
@@ -3399,10 +3399,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_breakpoints.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_buttons.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/mixins/_buttons.scss",
       "AssetKind": "All",
@@ -3418,10 +3418,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_buttons.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_caret.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_caret.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/mixins/_caret.scss",
       "AssetKind": "All",
@@ -3437,10 +3437,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_caret.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_clearfix.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/mixins/_clearfix.scss",
       "AssetKind": "All",
@@ -3456,10 +3456,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_clearfix.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_color-mode.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_color-mode.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/mixins/_color-mode.scss",
       "AssetKind": "All",
@@ -3475,10 +3475,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_color-mode.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_color-scheme.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/mixins/_color-scheme.scss",
       "AssetKind": "All",
@@ -3494,10 +3494,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_color-scheme.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_container.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_container.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/mixins/_container.scss",
       "AssetKind": "All",
@@ -3513,10 +3513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_container.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_deprecate.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/mixins/_deprecate.scss",
       "AssetKind": "All",
@@ -3532,10 +3532,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_deprecate.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_forms.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_forms.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/mixins/_forms.scss",
       "AssetKind": "All",
@@ -3551,10 +3551,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_forms.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_gradients.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/mixins/_gradients.scss",
       "AssetKind": "All",
@@ -3570,10 +3570,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_gradients.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_grid.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_grid.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/mixins/_grid.scss",
       "AssetKind": "All",
@@ -3589,10 +3589,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_grid.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_image.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_image.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/mixins/_image.scss",
       "AssetKind": "All",
@@ -3608,10 +3608,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_image.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_list-group.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/mixins/_list-group.scss",
       "AssetKind": "All",
@@ -3627,10 +3627,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_list-group.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_lists.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_lists.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/mixins/_lists.scss",
       "AssetKind": "All",
@@ -3646,10 +3646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_lists.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_pagination.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/mixins/_pagination.scss",
       "AssetKind": "All",
@@ -3665,10 +3665,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_pagination.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_reset-text.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/mixins/_reset-text.scss",
       "AssetKind": "All",
@@ -3684,10 +3684,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_reset-text.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_resize.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_resize.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/mixins/_resize.scss",
       "AssetKind": "All",
@@ -3703,10 +3703,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_resize.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_table-variants.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/mixins/_table-variants.scss",
       "AssetKind": "All",
@@ -3722,10 +3722,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_table-variants.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_text-truncate.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/mixins/_text-truncate.scss",
       "AssetKind": "All",
@@ -3741,10 +3741,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_text-truncate.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_transition.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_transition.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/mixins/_transition.scss",
       "AssetKind": "All",
@@ -3760,10 +3760,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_transition.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_utilities.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/mixins/_utilities.scss",
       "AssetKind": "All",
@@ -3779,10 +3779,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_utilities.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/mixins/_visually-hidden.scss",
       "AssetKind": "All",
@@ -3798,10 +3798,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_api.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_api.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/utilities/_api.scss",
       "AssetKind": "All",
@@ -3817,10 +3817,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\utilities\\_api.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\bootstrap\\scss\\vendor\\_rfs.scss",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/scss/vendor/_rfs.scss",
       "AssetKind": "All",
@@ -3836,10 +3836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\vendor\\_rfs.scss"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -3855,10 +3855,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -3874,10 +3874,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -3893,10 +3893,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -3912,10 +3912,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -3931,10 +3931,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -3950,10 +3950,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -3969,10 +3969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -3988,10 +3988,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -4007,10 +4007,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -4026,10 +4026,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -4045,10 +4045,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCTestTask\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "D:\\Работа\\GitProject\\ASP.NETAppMVCFamilyPhoneBookApp\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

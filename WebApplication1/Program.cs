@@ -21,7 +21,7 @@ namespace WebApplication1
             builder.Configuration.GetConnectionString("Connection");
             //------------
             builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AppDBContext>();
-            builder.Services.AddControllersWithViews();
+        
             //--------------
             builder.Services.AddSingleton<IFileProvider>(new PhysicalFileProvider(
                 Path.Combine(Directory.GetCurrentDirectory(), "wwwroot")));
